@@ -29,6 +29,3 @@ jobs:
       - name: Get S3 bucket URL
         id: s3_url
         run: echo "::set-output name=url::https://http://febbucket-s3.s3-website.ca-central-1.amazonaws.com"
-
-      - name: Display S3 bucket URL
-        run: echo "Static website URL:"http://febbucket-s3.s3-website.ca-central-1.amazonaws.com"
